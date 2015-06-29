@@ -19,7 +19,8 @@ class Sile < Formula
   end
 
   depends_on "pkg-config" => :build
-  depends_on "harfbuzz"
+  depends_on "graphite2"
+  depends_on "harfbuzz" => "with-graphite"
   depends_on "fontconfig"
   depends_on "libpng"
   depends_on "freetype"
